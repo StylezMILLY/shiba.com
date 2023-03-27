@@ -1,0 +1,407 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h2{
+	font-family: 'Lobster', cursive;
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+
+
+body{
+	background-color: black;
+	
+}
+
+.header{
+	background-image: url(images/shiba4.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 1428px;
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: soft-light;
+}
+
+.header h1{
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 43px;
+	padding-left: 40px;
+	padding-top: 60px;
+}
+
+.header p{
+	color: white;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
+	padding-left: 40px;
+	width: 400px;
+	padding-top: 30px;
+}
+
+.header button{
+	padding: 17px 0;
+	width: 200px;
+	margin-left: 80px;
+	margin-top: 15px;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	border-radius: 9px;
+	background-color: red;
+	border: 1px solid red;
+}
+
+.header button a{
+	color: white;
+	text-decoration: none;
+	transition: 1s, width, coolor,0.8s;
+}
+
+.header button a:hover{
+	transition: 0.8;
+	background-color: red;
+	font-size: 30PX;
+
+}
+
+.row{
+	background-color: black;
+	padding: 25px;
+	width: 100%;
+}
+
+.row > button{
+	margin-top: 30px;
+}
+
+.row button a{
+	text-align: center;
+	margin: 0;
+}
+
+.row a{
+	color: white;
+	padding: 10px;
+	padding-left: 50px;
+	text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+/*    background-color: red;*/
+    width: 95%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: 1s, color, 0.5s;
+}
+
+.row a:hover{
+	color: white;
+	font-size: 23px;
+}
+
+.ama h2{
+	font-family: 'Lobster', cursive;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.ama p{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
+	color: white;
+	transition: 1s, color, font-size, 0.7s;
+	text-align: center;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+
+.ama p:hover{
+	font-size: 23px;
+	transition: 0.5s,;
+}
+
+.will{
+	background-image: url(images/shiba4.jpeg);
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-blend-mode: soft-light;
+	background-size: cover;
+	width: 1428px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.team{
+     padding-left: 55px;
+}
+
+.team h2{
+	text-align: center;
+	padding: 15px;
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+}
+
+.team a{
+	margin: 0!important;
+	color: white;
+	padding: 10px;
+	padding-left: 50px;
+	text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+/*    background-color: red;*/
+    width: 95%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: 1s, color, 0.5s;
+
+}
+
+.comm{
+
+	background-image: url(images/shiba4.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60vh;
+	width: 1429px;
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0.8);
+	background-blend-mode: soft-light;
+}
+
+.comm h1{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Lobster', cursive;
+}
+
+.comm p{
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-family: 'Lobster', cursive;
+	font-size: 18px;
+}
+
+.app{
+	background-color: red;
+	width: 150px;
+	padding: 15px;
+	margin-left: 570px;
+	border-radius: 10px;
+	border: 1px solid red;
+	margin-top: 20px;
+
+}
+
+.app a{
+	text-decoration: none;
+	color: white;
+	transition: 1s, color, 0.5s;
+	font-family: 'Lobster', cursive;
+
+}
+
+.app a:hover{
+	color: white;
+	font-size: 22px;
+}
+
+.app1{
+	background-color: red;
+	width: 150px;
+	margin-left: 5px;
+	padding: 15px;
+	border-radius: 10px;
+	border: 1px solid red;
+	margin-top: 20px;
+}
+
+.app1 a{
+	text-decoration: none;
+	color: white;
+	transition: 1s, color, 0.5s;
+	font-family: 'Lobster', cursive;
+}
+
+.app1 a:hover{
+	background-color: red;
+	color: white;
+	font-size: 22px;
+}
+
+
+#navbarNav>ul{
+	padding-left: 830px;
+} 
+
+a{
+	font-family: 'Lobster', cursive;
+	margin: 0;
+}
+
+button{
+	font-family: 'Lobster', cursive;
+}
+.card-body>button{
+	background-color: red;
+}
+
+.btn-danger{
+	background-color: red!important;
+	text-align: center;
+
+}
+
+.btn-danger a{
+	text-align: center;
+	margin-left: 0;
+}
+
+.team a{
+	padding: 0;
+}
+
+.row{
+	margin: 0!important;
+	justify-content: center;
+}
+
+.row-2{
+	margin-left: 200px;
+}
+.card{
+	margin-left: 9px;
+	margin-left: 9px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	#comm>button{
+		margin-left: 0;
+	}
+
+	.header p{
+		color: white;
+		font-family: 'Philosopher', sans-serif;
+		font-size: 18px;
+		padding-left: 10px;
+		width: 400px;
+		padding-top: 30px;
+	}
+
+
+	#buttonDiv{
+		display: flex;
+		justify-content: center;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.app{
+		margin-left: 0;
+	}
+
+	.header{
+		width: 100%;
+	}
+
+	#navbarNav>ul{
+		padding: 0px;
+	}
+
+	.will{
+		width: 100%;
+	}
+
+	.comm{
+		width: 100%;
+	}
+
+	.card{
+		margin-bottom: 25px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+
+	#comm>button{
+		margin-left: 0;
+	}
+
+	#buttonDiv{
+		display: flex;
+		justify-content: center;
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.app{
+		margin-left: 0;
+	}
+
+	.header{
+		width: 100%;
+	}
+
+	#navbarNav>ul{
+		padding: 0px;
+	}
+
+	.will{
+		width: 100%;
+	}
+
+	.comm{
+		width: 100%;
+	}
+
+	.card{
+		margin-bottom: 25px;
+	}
+}
+
+@media only screen and (min-width: 768px) {}
+
+
+
+@media only screen and (min-width: 992px) {
+	#navbarNav>ul{
+		padding-left: 400px;
+	} 
+}
+
+@media only screen and (min-width: 1200px) {
+	#navbarNav>ul{
+		padding-left: 800px;
+	} 
+}
+
+
